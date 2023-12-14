@@ -1,0 +1,338 @@
+/* Add your global styles here */
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Header Styles */
+
+.yellow-header {
+    background-color: rgb(255, 145, 0);
+    padding: 10px 0;
+}
+
+.header-content {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 50px; /* Adjust the size as needed */
+    margin-right: 10px;
+}
+
+.header-image {
+    width: 70px; /* Adjust the size as needed */
+    object-fit: cover;
+}
+
+.header-title {
+    text-align: center;
+    text-decoration: none; /* Remove underlining */
+    color: white; /* Set text color to white */
+}
+
+/* Main Content Styles */
+
+.index {
+    padding: 20px;
+}
+
+.about-us {
+    max-width: 600px;
+}
+
+.large-text {
+    font-size: 18px;
+}
+
+/* Footer Styles */
+
+.yellow-footer {
+    background-color: rgb(255, 145, 0);
+    padding: 10px 0;
+}
+
+.footer-content {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* Box Styles for Booking Rates and Contact Us */
+
+.box {
+    padding: 15px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.box:hover {
+    background-color: blue;
+    color: white;
+}
+booking
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Header Styles for Booking Page */
+
+.booking-header {
+    background-color: rgb(255, 145, 0);
+    padding: 10px 0;
+    text-align: center; /* Center text */
+}
+
+.booking-header-content {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.booking-logo {
+    width: 50px; /* Adjust the size as needed */
+    margin-right: 10px;
+}
+
+.booking-header-title {
+    text-decoration: none; /* Remove underlining */
+    color: white; /* Set text color to white */
+}
+
+/* Main Content Styles for Booking Page */
+
+.booking-page {
+    padding: 20px;
+    background-color: #f5f5f5; /* Add a background color to distinguish the booking page */
+    text-align: center; /* Center text */
+}
+
+h2 {
+    text-align: center; /* Center text */
+}
+
+.day-selector {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.day-selector li {
+    margin: 0 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.day-selector li:hover {
+    background-color: orange;
+    color: white;
+}
+
+.calculated-cost {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.small-button {
+    cursor: pointer;
+    transition: background-color 0.3s;
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.small-button:hover {
+    background-color: orange;
+    color: white;
+}
+
+.clear-button {
+    display: inline-block;
+    padding: 8px 12px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    border-radius: 5px;
+}
+
+.clear-button:hover {
+    background-color: orange;
+    color: white;
+}
+
+/* Box Styles for Booking Rates and Contact Us */
+
+.box {
+    display: inline-block;
+    padding: 15px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.box:hover {
+    background-color: orange;
+    color: white;
+}
+
+/* Footer Styles for Booking Page */
+
+.booking-footer {
+    background-color: rgb(255, 145, 0);
+    padding: 10px 0;
+    text-align: center; /* Center text */
+}
+
+.booking-footer-content {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center; /* Center text */
+}
+contact 
+/* Add these styles to your existing CSS file */
+
+#thank-you-message {
+    margin-top: 20px;
+    font-size: 24px;
+}
+
+/* Add your global styles here */
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Header Styles for Contact Page */
+
+.yellow-header {
+    background-color: rgb(255, 145, 0);
+    padding: 10px 0;
+}
+
+.header-content {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 50px; /* Adjust the size as needed */
+    margin-right: 10px;
+}
+
+.header-title {
+    text-decoration: none; /* Remove underlining */
+    color: white; /* Set text color to white */
+}
+
+/* Main Content Styles for Contact Page */
+
+.contact {
+    padding: 20px;
+    text-align: center; /* Center text */
+}
+
+h2 {
+    text-align: center; /* Center text */
+}
+
+.flex label {
+    margin-right: 10px;
+}
+
+.flex input,
+.flex textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+}
+
+/* Button Styles for Contact Page */
+
+.fake-button {
+    cursor: pointer;
+    transition: background-color 0.3s;
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.fake-button:hover {
+    background-color: orange;
+    color: white;
+}
+
+/* Center "Good dog!" Button */
+
+#submit-button {
+    display: inline-block;
+    margin: 0 auto;
+}
+
+/* Footer Styles for Contact Page */
+
+.yellow-footer {
+    background-color: rgb(255, 145, 0);
+    padding: 10px 0;
+    text-align: center; /* Center text */
+}
+
+.footer-content {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center; /* Center text */
+}
+#user-message {
+    width: 100%;
+    height: 150px; /* Adjust the height as needed */
+    padding: 8px;
+    margin-bottom: 15px;
+}
+
+
+
+
+
+
